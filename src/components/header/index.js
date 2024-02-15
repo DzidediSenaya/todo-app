@@ -1,7 +1,9 @@
+import styles from "./index.module.css";
 function Header(){
-    return(
-        <p>Todo Header</p>
-    )
+    return (
+        <header className={styles.headerBackground}>
+        <h1 className={styles.headerBackground}>TODO</h1>  
+        </header>  );
 }
 
 export default Header;

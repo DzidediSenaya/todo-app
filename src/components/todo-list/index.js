@@ -1,6 +1,9 @@
 function TodoList(){
     return(
-        <p>Todo List</p>
+        <ul>
+            <li>Complete online javascript course</li>
+            <li>Jog around three times</li>
+        </ul>
     )
 }
 
