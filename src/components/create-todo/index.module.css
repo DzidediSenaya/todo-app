@@ -4,7 +4,7 @@
     width: 60%;
     left: 20%;
     background-color: white;
-    height: 35px;
+    height: 42px;
     border-radius: 5px;
     display: flex;
     padding: 5px;
@@ -17,6 +17,15 @@
 
 }
 
+.createTodoInput:focus {
+    outline: none;
+}
+
+/*.btn {
+    background-color: #8c1f60;
+}
+*/
+
 button {
     background: #8c1f60;
     background-image: -webkit-linear-gradient(top, #8c1f60, #2980b9);
@@ -26,11 +35,12 @@ button {
     background-image: linear-gradient(to bottom, #8c1f60, #2980b9);
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    border-radius: 0px;
+    border-radius: 5px;
     font-family: Arial;
     color: #ffffff;
     font-size: 20px;
     text-decoration: none;
+    
 }
 
 button:hover {
